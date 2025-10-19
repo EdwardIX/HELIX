@@ -1,0 +1,1 @@
+python3 -m vllm.entrypoints.openai.api_server --model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --host 0.0.0.0 --port 8080 --dtype auto --max-num-seqs 32 --max-model-len 32768 --tensor-parallel-size 8 --trust-remote-code
